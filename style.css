@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:auto;
+    background-color:aliceblue;
+}
+
+.main-header{
+    background:black;
+    color:white;
+    height:50px;
+}
+
+h1{
+    margin-top:0;
+    padding-top:5px;
+    padding-bottom:10px;
+}
+
+h1,
+.intro{
+    text-align:center;
+}
+
+
+.intro{
+    width:80%;
+    margin:auto;
+    border-bottom:black 5px solid;
+}
+
+.main-content{
+    width:80%;
+    margin:auto;
+    margin-top:3px;
+    border-top:black 2.5px solid;
+}
+
+input{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========Media Queries==========*/
+
+@media(min-width:769px){
+
+
+}
+
+
+
+
+
+
+@media(min-width:1050px){
+
+
+}
+
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
