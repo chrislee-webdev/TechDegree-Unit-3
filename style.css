@@ -7,7 +7,7 @@ body{
     background-color:aliceblue;
 }
 
-.main-header{
+header{
     background:black;
     color:white;
     height:50px;
@@ -17,43 +17,66 @@ h1{
     margin-top:0;
     padding-top:5px;
     padding-bottom:10px;
-}
-
-h1,
-.intro{
     text-align:center;
 }
 
-
-.intro{
-    width:80%;
+.container{
+    width:60%;
     margin:auto;
+    margin-top:25px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+
+.contact{
+    margin:10px 0;
+}
+
+.signup{
+    text-align:center;
     border-bottom:black 5px solid;
 }
 
-.main-content{
-    width:80%;
-    margin:auto;
-    margin-top:3px;
+label[for*="name"] {
     border-top:black 2.5px solid;
+    padding-top:15px;
 }
 
-.form_field{
-    margin-bottom:20px;
-}
-
-input{
-    width:100%;
-}
-
-input[id*="zip"]{
+input[id*="zipcode"] {
     width:50%;
 }
 
 
+.check{
+    width:60%;
+    margin:auto;
+    margin-top:25px;
+    display:flex;
+    flex-wrap:wrap;
+}
 
+.container_two {
+    width:60%;
+    margin:auto;
+    margin-top:25px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.interest:first-child {
+    width:100%;
+    border-top:black 2.5px solid;
+}
 
+.interest:not(:first-child){
+    flex:2;
+}
 
+input[type*="checkbox"] {
+    margin-right:20px;
+    margin-bottom:15px;
+}
 
 
 
