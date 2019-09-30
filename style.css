@@ -7,77 +7,56 @@ body{
     background-color:aliceblue;
 }
 
-header{
-    background:black;
-    color:white;
-    height:50px;
-}
-
 h1{
     margin-top:0;
     padding-top:5px;
     padding-bottom:10px;
     text-align:center;
+    background-color:black;
+    color:white;
 }
 
-.container{
+.sign_up{
+    width:60%;
+    text-align:center;
+    margin:auto;
+}
+
+.contact_info,
+.part_2{
     width:60%;
     margin:auto;
     margin-top:25px;
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;
+}
+
+.hr-1,
+.hr-2{
+    width:60%;
+}
+
+.hr-1{
+    border:black 5px solid;
+}
+
+.hr-2{
+    border:black 1.5px solid;
+}
+
+fieldset{
+    border-style:none;
 }
 
 .contact{
     margin:10px 0;
 }
 
-.signup{
-    text-align:center;
-    border-bottom:black 5px solid;
-}
-
-label[for*="name"] {
-    border-top:black 2.5px solid;
-    padding-top:15px;
-}
-
-input[id*="zipcode"] {
-    width:50%;
-}
-
-
-.check{
-    width:60%;
-    margin:auto;
-    margin-top:25px;
-    display:flex;
-    flex-wrap:wrap;
-}
-
-.container_two {
-    width:60%;
-    margin:auto;
-    margin-top:25px;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-}
-.interest:first-child {
+input,
+select{
     width:100%;
-    border-top:black 2.5px solid;
 }
-
-.interest:not(:first-child){
-    flex:2;
-}
-
-input[type*="checkbox"] {
-    margin-right:20px;
-    margin-bottom:15px;
-}
-
 
 
 
