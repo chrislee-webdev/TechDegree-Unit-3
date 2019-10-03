@@ -4,7 +4,7 @@
 <html>
 
     <header>
-        <title></title>
+        <title>Form Project</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
@@ -28,12 +28,13 @@
          <hr hr class="hr-2">
 
          <fieldset class="contact_info">
+             <div class="row">
             <label class="contact" for="name">Full Name</label>
-            <input type="text" id="name" name="user_name">
+            <input type="text" id="name" name="user_name" placeholder="Required">
            
 
             <label class="contact" for="mail">Email Address</label>
-            <input type="email" id="mail" name="user_email">
+            <input type="email" id="mail" name="user_email" placeholder="Required">
 
             <label class="contact" for="phone">Phone Number</label>
             <input type="text" id="phone" name="user_phone">
@@ -44,7 +45,7 @@
             <label class="contact" for="city">City</label>
             <input type="text" id="city" name="user_city">
             
-            <label class="contact" for="state">State</label>
+            <label class="contact" for="state">State</label><br>
             <select id="state" name="user_state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -97,34 +98,39 @@
                     <option value="WV">West Virginia</option>
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
-            </select>
+            </select><br>
 
-            <label class="contact" for="zipcode">Zip Code</label>
+            <label class="contact" for="zipcode">Zip Code</label><br>
             <input type="text" id="zipcode" name="user_zipcode">   
+            </div>
 
 
          </fieldset>
 
 
          <div class="sign_up">
-            <h2>Newsletter</h2>
+            <h2 class="news">Newsletter</h2>
             <p>Select the newsletter you would like to receive</p>
         </div>
 
         <fieldset class="contact_info">
  
+        <div class="row_2">
             <div class="interest">
-                <input type="checkbox" id="html" name="interest_html"><label for="html">HTML News</label><br>
+                <input type="checkbox" id="html" name="interest_html">
+                <label for="html">HTML News</label><br>
             </div>
            
             <div class="interest">
-                <input type="checkbox" id="css" name="interest_css"><label for="css">CSS News</label><br>
+                <input type="checkbox" id="css" name="interest_css">
+                <label for="css">CSS News</label><br>
             </div>
 
             <div class="interest">
-                <input type="checkbox" id="javascript" name="interest"><label for="javascript">Javascript News</label><br>
+                <input type="checkbox" id="javascript" name="interest">
+                <label for="javascript">Javascript News</label><br>
             </div>
-
+        </div>
         </fieldset>
 
         <div class="sign_up">
@@ -133,14 +139,17 @@
         
         <fieldset class="contact_info">
 
+            <div class="row_3">
             <div class="interest">
-                <input type="checkbox" id="format_html" name="html_format"><label for="format_html">HTML</label><br>
+                <input type="checkbox" id="format_html" name="html_format">
+                <label for="format_html">HTML</label><br>
             </div>
 
             <div class="interest">
-                <input type="checkbox" id="format_plain" name="plain_format"><label for="format_plain">Plain Text</label>
+                <input type="checkbox" id="format_plain" name="plain_format">
+                <label for="format_plain">Plain Text</label><br>
             </div>
-
+        </div>
         </fieldset>
 
         <div class="sign_up">
@@ -149,11 +158,11 @@
            
                 
         <fieldset class="contact_info">
-
+            <div class="row">
             <textarea></textarea>
 
             <input type="submit">
-        
+        </div>
         </fieldset>
 
         <footer>

@@ -43,6 +43,10 @@ h2
     margin-bottom:25px;
 }
 
+.news{
+    text-align:left;
+}
+
 .hr-1,
 .hr-2{
     width:60%;
@@ -67,16 +71,14 @@ fieldset{
 input,
 select{
     width:100%;
+    margin-bottom:15px;
 }
 
 .interest{
     display:flex;
     flex:row;
     margin-bottom:10px;
-}
-
-select{
-    width:30%;
+    align-items:baseline;
 }
 
 input[type*="checkbox"] {
@@ -94,7 +96,8 @@ legend{
 
 textarea {
     width:100%;
-    margin-top:15px;
+    margin-top:5px;
+    margin-bottom:15px;
     height:100px;
 }
 
@@ -111,6 +114,12 @@ p{
     text-align:left;
 }
 
+::placeholder{
+    font-style:italic;
+    text-align:right;
+    padding-right:15px;
+}
+
 
 
 
@@ -121,26 +130,27 @@ p{
 
 @media(min-width:769px) {
 
-    .contact_info{
-        display:flex;
-        flex-direction:row;
+   .row{
+       display:flex;
+       flex-wrap:wrap;
+   }
+
+   label{
+    width:25%;
+   }
+
+    input,
+    select{
+        width:75%;
+    }     
+
+    .interest{
+        align-items:baseline;
     }
 
-    label{
-        display:inline-block;
-        width:150px;
-        text-align:left;
+    input[type*="submit"] {
+        width:100%;
     }
-
-    input[type*="text"] {
-        display:inline-block;
-        width:50%;
-    }
-        
-
-}
-
-
 
 
 
