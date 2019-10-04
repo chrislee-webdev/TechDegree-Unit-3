@@ -76,7 +76,7 @@ select{
 
 .interest{
     display:flex;
-    flex:row;
+   
     margin-bottom:10px;
     align-items:baseline;
 }
@@ -88,10 +88,6 @@ input[type*="checkbox"] {
 
 input[id*="zipcode"]{
     width:30%;
-}
-
-legend{
-    margin-top:15px auto;
 }
 
 textarea {
@@ -167,8 +163,3 @@ input:focus{
 }
 
 
-.clearfix::after{
-    content:"";
-    display:table;
-    clear:both;
-}
