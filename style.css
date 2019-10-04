@@ -120,6 +120,11 @@ p{
     padding-right:15px;
 }
 
+input:focus{
+    color:black;
+    background-color:lightgray;
+}
+
 
 
 
@@ -133,6 +138,7 @@ p{
    .row{
        display:flex;
        flex-wrap:wrap;
+       align-items:baseline;
    }
 
    label{
