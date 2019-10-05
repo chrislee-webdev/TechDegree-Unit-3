@@ -120,7 +120,7 @@ input:focus{
     color:black;
     background-color:lightgray;
     /*** transition: [transition-property] [transition-duration] [transition-timing] ***/
-    transition:background-color 1s ease;
+    transition:background-color 0.5s ease;
 }
 
 input:hover{
