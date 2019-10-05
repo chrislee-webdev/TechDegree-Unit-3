@@ -75,13 +75,13 @@ select{
 }
 
 .interest{
-    display:flex;
-   
+    display:flex; 
     margin-bottom:10px;
     align-items:baseline;
 }
 
-input[type*="checkbox"] {
+input[type*="checkbox"],
+input[type*="radio"] {
     width:25px;
     margin-right:15px;
 }
@@ -119,7 +119,15 @@ p{
 input:focus{
     color:black;
     background-color:lightgray;
+    /*** transition: [transition-property] [transition-duration] [transition-timing] ***/
+    transition:background-color 1s ease;
 }
+
+input:hover{
+    background-color:white;
+}
+
+
 
 
 
@@ -152,6 +160,10 @@ input:focus{
 
     input[type*="submit"] {
         width:100%;
+    }
+
+    #other_topics{
+        width:30%;
     }
 
 }
