@@ -26,17 +26,14 @@
          <hr class="hr-1">
 
          <hr class="hr-2">
-    
-         
-
-         <div class="sign_up">
-             <h2 class="news">Contact Information</h2>
-         </div>
 
          <form action="index.html" method="post">
 
          <fieldset class="contact_info">
-             <div class="row">
+
+            <legend class="news">Contact Information</legend>
+
+            <div class="row">
             <label class="contact" for="name">Full Name</label>
             <input required type="text" id="name" name="user_name" placeholder="Required">
            
@@ -113,37 +110,37 @@
             </div>
          </fieldset>
 
-
-         <div class="sign_up">
-            <h2 class="news">Newsletter</h2>
-            <p>Select the newsletter you would like to receive</p>
-        </div>
+         <hr class="hr-2">
+ 
 
         <fieldset class="contact_info">
- 
-        <div class="row_2">
-            <div class="interest">
-                <input type="checkbox" id="html" name="interest_html">
-                <label for="html">HTML News</label><br>
-            </div>
-           
-            <div class="interest">
-                <input type="checkbox" id="css" name="interest_css">
-                <label for="css">CSS News</label><br>
-            </div>
 
-            <div class="interest">
-                <input type="checkbox" id="javascript" name="interest">
-                <label for="javascript">Javascript News</label><br>
+                <legend class="news"><h2>Newsletter</h2></legend>
+                <span>Select the newsletter you would like to receive</span>
+ 
+            <div class="row_2">
+                <div class="interest">
+                    <input type="checkbox" id="html" name="interest_html">
+                    <label for="html">HTML News</label><br>
+                </div>
+            
+                <div class="interest">
+                    <input type="checkbox" id="css" name="interest_css">
+                    <label for="css">CSS News</label><br>
+                </div>
+
+                <div class="interest">
+                    <input type="checkbox" id="javascript" name="interest">
+                    <label for="javascript">Javascript News</label><br>
+                </div>
             </div>
-        </div>
         </fieldset>
 
-        <div class="sign_up">
-            <p>Newsletter format</p>
-        </div>
+       
         
         <fieldset class="contact_info">
+
+            <legend class="news">Newsletter format</legend>
 
             <div class="row_3">
             <div class="interest">
@@ -157,12 +154,10 @@
             </div>
         </div>
         
-        <label for="textarea" id="other_topics">
-                Other topics you'd like to hear about
-            </label><br>
+        <legend class="other_topics">Other topics you'd like to hear about</legend>
                   
         <div class="row">
-            <textarea></textarea>
+            <textarea id="topics" name="user_topics"></textarea>
             <input type="submit">
         </div>
         </fieldset>
