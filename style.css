@@ -69,8 +69,7 @@ fieldset{
     margin:10px 0;
 }
 
-input,
-select{
+input{
     width:100%;
     margin-bottom:15px;
 }
@@ -138,6 +137,11 @@ textarea:focus{
 span,
 .other_topics{
     padding-bottom:15px;
+}
+
+.newsletter{
+    font-weight:bold; 
+    font-size:1.5em;
 }
 
 
