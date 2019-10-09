@@ -43,10 +43,6 @@ h2
     margin-bottom:25px;
 }
 
-legend{
-    text-align:left;
-}
-
 .hr-1,
 .hr-2{
     width:60%;
@@ -95,7 +91,7 @@ input[id*="zipcode"]{
     margin-top:10px;
 }
 
-textarea {
+textarea{
     width:100%;
     margin-top:5px;
     margin-bottom:15px;
